@@ -3,11 +3,21 @@
 ## Identity and class
 
 - Player name:
-- Primary class:
-- Secondary classes:
+- Currently active class:
+- Other classes actually played:
 - Preferred subclasses:
 - Favorite Exotic armor:
 - Controller or mouse and keyboard:
+
+## Class/build weapon interactions
+
+- Class ability normally equipped:
+- Instant reload sources:
+- Passive/holstered reload sources:
+- Magazine-overflow or sustain loops:
+- Reload-triggered weapon perks relied upon:
+- Ability, Exotic, or artifact interactions that change weapon value:
+- Build-specific weapon types/elements required:
 
 ## Activity priorities
 
@@ -38,7 +48,7 @@ Rank these:
 - Frames/archetypes to avoid:
 - Shotgun preference: slug, pellet, Rapid-Fire, Precision, other:
 - Other important frame preferences:
-- Origin traits or foundries the player values:
+- Origin traits or foundries valued:
 - Avoided weapon types:
 - Simple reliable loops or high-execution rotations:
 - Survivability, support, control, burst, sustained damage, or speed:

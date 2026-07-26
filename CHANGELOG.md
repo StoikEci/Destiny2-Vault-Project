@@ -1,6 +1,28 @@
-
 # Change Log
 
+## v2.5 — July 25, 2026
+
+- Rebuilt the primary bootstrap as a concise active operating file instead of an append-only research journal.
+- Preserved the full v2.4.1 bootstrap under `docs/history/` and extracted the detailed six-page Warlock creator research under `docs/research/`.
+- Added portable versus class/build-adjusted weapon valuation.
+- Added a permanent reload taxonomy separating manual reload speed, instant/ability reload, passive holstered reload, magazine overflow, sustained-fire refunds, ammo economy, and reload-triggered payoff.
+- Added the Update 9.1.5 Hunter rule: Marksman's Dodge reloads all equipped weapons and picks up nearby ammo bricks.
+- Added class-ability opportunity-cost and reload-trigger verification requirements.
+- Corrected Bad Juju language: it is a unique Super-economy option, not a presumptive BIS Super-generation weapon.
+- Consolidated duplicate creator evidence rubrics, build-priority lists, source indexes, element matrices, workflows, prompts, and repository instructions.
+- Updated the player profile, friend bootstrap, and vault-analysis prompt for Hunter and class-specific weapon interactions.
+- Corrected README and manifest references so only the seven-item July 19 import is active; older eight-item and 38-item files are marked archived.
+- Added `docs/Bootstrap-Optimization-Report-v2.5.md` with measured reduction and value-preservation details.
+
+## v2.4.1 — July 25, 2026
+
+- Added a permanent recoil-direction mechanics reference and the user-supplied damped-sine graph.
+- Recorded the explanatory model `B(x) = sin((x + 5)π / 10) × (100 - x)`.
+- Documented centered ending-in-5 nodes, the ideal 100 endpoint, alternating side bias, and the shrinking bias envelope near 100.
+- Added final-stat examples showing why a `+15` bonus can help or move a weapon away from a centered node.
+- Separated Recoil Direction from Stability and Accuracy.
+- Added vault-analysis safeguards requiring selectable configurations, full stat packages, archetype weighting, and explicit tradeoff reporting.
+- Updated the primary bootstrap, manifest, README, and reusable vault-analysis prompt.
 
 ## v2.4 — July 19, 2026
 

@@ -1,0 +1,8 @@
+90ffea07a2507f00964ece0df804290def261f8f8a96de6886eb69b0eadf8050  Brents-Destiny-2-AI-Bootstrap-v2.5.md
+ba5783953e37600a3ba9e4bdcf8f3ce9037061806751894ff4b272e4dcd4df98  README.md
+96456795d9a8b818862478a8bcc915762eb8988b1bfeb0f029d450b4ddc385fc  CHANGELOG.md
+a263c73d53431942aa74f8676d0810c6274f7f87750625c31cb16540c3700ef0  docs/Class-Adjusted-Reload-and-Sustain.md
+178c5bdcf6f009361de1a84ceba8984babfd054a19708b5a395de50c988a3dff  docs/Super-Economy-and-Bad-Juju.md
+13c30f8339d842c5abb3347eeff459abee63f868d8a724b045cc515582f044bc  docs/Bootstrap-Optimization-Report-v2.5.md
+65d689aa466d4f33580a8a43a33de339f45872c10c951b11f2f6a4578c3429b0  docs/history/Brents-Destiny-2-AI-Bootstrap-v2.4.1-Legacy.md
+3962d93c4f9904f65efb16b9b684ecef791ab3dc749ae99871783400d989d592  docs/research/Warlock-Creator-Build-Research-v2.4.md
