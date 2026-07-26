@@ -1,5 +1,46 @@
 # Change Log
 
+## v2.10 — July 25, 2026
+
+- Refined the active AI bootstrap's prioritization order around strongest and most enjoyable builds.
+- Put build-engine enablers and bottleneck solvers first, followed by best-fit performance, exceptional fun/confidence, high-leverage flexibility, and credible encounter coverage.
+- Rewrote deletion philosophy as armory optimization rather than space recovery or maximum-retention management.
+- Added build-contribution and safeguard gates for every consequential keep/delete decision.
+- Increased willingness to remove clearly outclassed, redundant, or purely theoretical rolls when stronger retained options cover Brent's real and near-term builds.
+- Preserved exact-frame, firing-behavior, element, origin-trait, Tier, source-cost, configured-stat, personal-metadata, provenance, and Manual Review safeguards.
+- Clarified that Manual Review is a focused decision state, not indefinite retention.
+- Preserved exact v2.9 AI and human bootstraps under `docs/history/`.
+- No vault exports, DIM imports, analysis workbooks, candidate audits, or weapon-mechanics references changed.
+
+## v2.9 — July 25, 2026
+
+- Reframed the ultimate project goal from vault-space management to maximizing Destiny 2 build power, enjoyment, reliability, and content capability.
+- Added `docs/Project-North-Star.md` with the priority order: stronger and more enjoyable builds first, inventory clarity second, vault space a distant third.
+- Made “What new or stronger loadouts does keeping/deleting this enable?” the primary decision lens.
+- Replaced the retention-first hierarchy with a build-and-armory priority order led by build-engine unlockers/amplifiers, best-in-role weapons Brent will use, and meaningful Tier 5 compression.
+- Increased deletion confidence for clearly outclassed or redundant rolls when a superior option covers the roles and engines Brent actually uses and enjoys.
+- Preserved exact-frame, origin-trait, source, Tier, complete-stat, and personal safeguards as confidence thresholds rather than automatic retention.
+- Added a Chase / Craft / Focus outcome and required a prioritized Armory Improvement Plan in major analyses.
+- Prioritized current Warlock engines for broad proactive analysis while preserving meaningful Hunter, other-class, and portable value.
+- Updated the AI bootstrap, human bootstrap, Decision Doctrine, Personal Evidence Ledger, State Reconciliation Protocol, README, manifest, prompts, architecture, and release validation.
+- Preserved exact v2.8 AI/human bootstraps and Decision Doctrine under `docs/history/`.
+- Existing seven-item DIM proposal remains unchanged but is marked as predating the goal reframe and requiring a quick build-engine check before use.
+- No vault exports, DIM imports, analysis workbooks, or candidate audits changed.
+
+## v2.8 — July 25, 2026
+
+- Added `docs/Brent-Decision-Doctrine.md`, defining Brent-on-his-best-day reasoning, depth calibration, provenance, two-pass evaluation, counterargument tests, regret pre-mortems, stop rules, and decision receipts.
+- Added `docs/Brent-Personal-Evidence-Ledger.md` with stable evidence IDs, active/historical status, explicit unknowns, and rules preventing AI inference from becoming supposed Brent fact.
+- Added `docs/State-Reconciliation-Protocol.md`, treating personal corrections, new DIM exports, mechanic changes, and release updates as a validated state transaction rather than isolated sentence edits.
+- Recorded Brent's current explicit preference for Reconstruction on The Call and his approximately 30-micro-missile stowed magazine result.
+- Preserved the older Subsistence + Adrenaline Junkie configuration as historical context.
+- Marked The Call's current fourth-column perk as unconfirmed and prohibited propagation of the unsupported Chaos Reshaped assertion without Brent or DIM confirmation.
+- Updated the AI bootstrap to require the doctrine, ledger, and reconciliation protocol; added provenance rules, depth allocation, best-case keep arguments, regret pre-mortems, reversal conditions, and affected-decision checks.
+- Updated the human bootstrap to explain the Reconstruction story and how the repository records not only facts but how it knows them.
+- Added `docs/Bootstrap-Architecture-v2.8.md`, `docs/Release-Validation-v2.8.md`, `templates/Personal-Evidence-Ledger-Entry-Template.md`, updated prompts, manifest, README, release instructions, and checksums.
+- Preserved exact v2.7 AI and human bootstraps under `docs/history/`.
+- No vault exports, DIM imports, analysis workbooks, or candidate audits changed.
+
 ## v2.7 — July 25, 2026
 
 - Rejected the v2.6 over-compression experiment as the active bootstrap design.

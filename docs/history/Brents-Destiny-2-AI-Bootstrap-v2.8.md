@@ -1,14 +1,13 @@
 # Brent's Destiny 2 AI Bootstrap
 
-**Repository version:** 2.10  
+**Repository version:** 2.8  
 **Updated:** July 25, 2026  
 **Canonical filename:** `Brents-Destiny-2-AI-Bootstrap.md`  
 **Filename policy:** Keep this root filename stable; preserve versioned snapshots only under `docs/history/`.  
 **Companion human overview:** `Brents-Destiny-2-Human-Bootstrap.md`  
-**Active scope:** Build and armory intelligence, powerful and enjoyable loadout development, Tier 5 comparison, build-engine valuation, best-in-role coverage, proactive chase planning, creator-evidence weighting, source protection, and DIM-safe consolidation.  
-**Prior active snapshot:** `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.9.md`  
+**Active scope:** Full-fidelity continuity, vault intelligence, Tier 5 comparison, build-adjusted weapon valuation, best-in-role coverage, creator-evidence weighting, source protection, and DIM-safe cleanup.  
+**Prior active snapshot:** `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.7.md`  
 **Full legacy detail:** `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.4.1-Legacy.md`  
-**Project North Star:** `docs/Project-North-Star.md`  
 **Reasoning doctrine:** `docs/Brent-Decision-Doctrine.md`  
 **Personal evidence ledger:** `docs/Brent-Personal-Evidence-Ledger.md`  
 **State reconciliation protocol:** `docs/State-Reconciliation-Protocol.md`  
@@ -18,13 +17,11 @@
 
 ### 0.1 Purpose
 
-This is the authoritative continuity and operating file for Brent's Destiny 2 **build and armory intelligence project**. It is designed for an AI that may need to resume the project without access to the original conversation. It therefore favors completeness, explicit guardrails, personal context, and auditable reasoning over extreme brevity.
+This is the authoritative continuity and operating file for Brent's Destiny 2 vault project. It is designed for an AI that may need to resume the project without access to the original conversation. It therefore favors completeness, explicit guardrails, personal context, and auditable reasoning over extreme brevity.
 
-The ultimate purpose is not to create empty vault slots. It is to help Brent field the strongest, most enjoyable, and most capable builds he can use to beat the content he cares about. The vault is supporting infrastructure: a high-performance armory that should make great loadouts easier to assemble, understand, improve, and use.
+The full v2.4-era file had become an append-only research journal: valuable, but repetitive and slow to ingest. v2.5.1 established a good middle ground. v2.7 restored that richer structure after a rejected over-compression experiment and added a separate human-facing companion. v2.8 keeps that design and adds a reasoning doctrine, personal evidence ledger, and state-reconciliation protocol so future AI work preserves not only conclusions, but provenance, depth, and current personal state.
 
-The full v2.4-era file had become an append-only research journal: valuable, but repetitive and slow to ingest. v2.5.1 established a good middle ground. v2.7 restored that richer structure after a rejected over-compression experiment and added a separate human-facing companion. v2.8 added a reasoning doctrine, personal evidence ledger, and state-reconciliation protocol. v2.9 reframed the project around build power, enjoyment, capability, and proactive armory improvement. v2.10 sharpens the armory prioritization and deletion philosophy so power and enjoyment lead while exact-frame, origin-trait, source-cost, Tier, stat-package, and personal safeguards remain mandatory.
-
-For consequential work, a future AI should read this file first, then `docs/Project-North-Star.md`, `docs/Brent-Decision-Doctrine.md`, `docs/Brent-Personal-Evidence-Ledger.md`, the newest DIM export, and finally only the policy or research documents needed for the current task. The North Star governs purpose and priorities; the doctrine governs reasoning depth; the ledger governs Brent-specific active truth; the export governs current inventory.
+For consequential work, a future AI should read this file first, then `docs/Brent-Decision-Doctrine.md`, then `docs/Brent-Personal-Evidence-Ledger.md`, then the newest DIM export, and finally only the policy or research documents needed for the current task. The doctrine governs reasoning depth; the ledger governs Brent-specific active truth; the export governs current inventory.
 
 ### 0.2 Two-bootstrap architecture
 
@@ -40,9 +37,9 @@ The human file is explanatory, not a substitute for the AI file during a deletio
 - **User:** Brent
 - **Preferred assistant name:** Charlie
 - **Primary inventory tool:** Destiny Item Manager (DIM)
-- **Goal:** Maximize Brent's enjoyment and power in Destiny 2 by enabling the strongest, most fun, and most capable builds possible for the content he cares about. Treat the vault as a high-performance armory in service of those loadouts—not as a museum, a completeness collection, or a risk-avoidance system. The primary success metric is stronger and more enjoyable builds; the secondary metric is inventory clarity and reduced decision fatigue; raw vault-space recovery is a distant tertiary concern.
-- **Risk tolerance:** Conservative about irreversible mistakes, but willing to delete clearly outclassed or redundant rolls when a superior option covers the roles and build engines Brent actually uses and enjoys.
-- **Class/build focus:** Warlock has historically been Brent's most-developed class, and current Warlock build engines receive special proactive attention. Brent has also resumed playing Hunter, so preserve portable and Hunter-adjusted value rather than assuming a Warlock-only model.
+- **Goal:** Recover vault space quickly while preserving genuinely distinct, high-value, difficult-to-reacquire, build-enabling, or personally important weapons.
+- **Risk tolerance:** Conservative on irreversible deletions, but willing to accept controlled risk when the reasoning is explicit and the replacement coverage is proven.
+- **Class status:** Warlock has historically been Brent's most-developed class, but Brent has resumed playing Hunter. Do **not** assume a Warlock-only valuation model. Ask which class, subclass, Exotic armor, and activity are relevant to the current decision.
 - **Activities that matter most:** Difficult PvE, Grandmasters/Conquests, raids, dungeons, solo survival, strong general-purpose builds, and practical ease of use.
 - **Input method:** Verify before recoil-sensitive or PvP-sensitive recommendations.
 - **Time constraint:** Brent does not want to spend hours manually comparing every duplicate and selectable perk combination. The analysis should do the heavy work and produce an efficient, reviewable result.
@@ -50,59 +47,40 @@ The human file is explanatory, not a substitute for the AI file during a deletio
 - **Research preference:** Brent wants current opinions from strong Destiny creators, but creator popularity is not enough. Date recommendations, identify the exact role/activity, and reconcile them with official mechanics and Brent's actual inventory.
 - **Continuity preference:** Things Brent explicitly says about his weapons, builds, feel, priorities, or risk tolerance are project data. Preserve them in this file or a clearly linked permanent reference rather than optimizing them away.
 
-### 0.4 Project North Star and success metrics
-
-Use `docs/Project-North-Star.md`. The priority order is explicit:
-
-1. **Primary success metric — build power and enjoyment:** Does this help Brent create stronger, more enjoyable, more capable loadouts that improve his ability to beat desired content?
-2. **Secondary success metric — clarity and reduced decision fatigue:** Does this make the armory easier to understand, choose from, and improve?
-3. **Distant tertiary metric — vault space:** Space matters operationally, especially near the cap, but it is not the purpose of the project.
-
-The primary lens for every meaningful item decision is:
-
-> **What new or stronger loadouts does keeping or deleting this enable?**
-
-“Keeping” should have an affirmative armory contribution: unlock a build engine, materially improve a used role, provide a genuinely valuable specialist or alternate, improve enjoyment enough to increase actual use, or protect a costly capability that would matter. “Deleting” should remove proven redundancy, reduce misleading choice, clarify the best available option, or create room and attention for a superior chase, craft, or focus target.
-
-Do not preserve an item merely because a theoretical use can be imagined. Require a credible path to a build, role, encounter, or enjoyable play pattern. Conversely, do not delete a mechanically distinct item simply because it is not part of today's loadout; distinguish real future capability from speculative museum retention.
-
-### 0.5 The six-layer decision model
+### 0.4 The five-layer decision model
 
 Every recommendation must combine:
 
 1. **Mechanical truth** — the actual weapon, perk, frame, stat, subclass, Exotic, Champion, modifier, and activity behavior.
-2. **Brent fit and enjoyment** — input method, engagement range, execution tolerance, preferences, subjective feel, and likelihood of actual use.
-3. **Target-content context** — difficulty, encounter, solo/fireteam, Champions, modifiers, boss behavior, geometry, damage windows, and the content Brent wants to beat.
-4. **Build-engine contribution** — which current or desired engine the item unlocks, amplifies, stabilizes, or fails to improve; current Warlock engines deserve special attention.
-5. **Armory context** — Brent's exact rolls, Tier choices, versions, superior alternatives, role gaps, metadata, source cost, and chase/craft options.
-6. **Evidence/currentness** — current official behavior, demonstrated use, independent creator agreement, and protection against stale or bug-dependent advice.
+2. **Player fit** — class, build, input method, engagement range, execution tolerance, preferences, and subjective feel.
+3. **Activity context** — difficulty, encounter, solo/fireteam, Champions, modifiers, boss behavior, geometry, and damage windows.
+4. **Inventory context** — Brent's exact rolls, Tier choices, weapon versions, alternatives, coverage gaps, metadata, and source cost.
+5. **Evidence/currentness** — current official behavior, demonstrated use, independent creator agreement, and protection against stale or bug-dependent advice.
 
-Skipping any layer can turn a plausible recommendation into a weak build, wasted chase, or bad deletion.
+Skipping any layer can turn a plausible recommendation into a bad deletion.
 
-### 0.6 Required reasoning posture
+### 0.5 Required reasoning posture
 
 Use `docs/Brent-Decision-Doctrine.md`. In compact form:
 
 - Think shallowly about trivial, reversible bookkeeping and exact duplicates.
 - Think deeply about favorites, crafted or rare gear, Tier 5 complexity, cross-version replacements, conflicting evidence, and broad policies.
 - Separate mechanical value from Brent-fit value, then reconcile them.
-- Optimize first for stronger and more enjoyable loadouts; be conservative about irreversible regret but aggressive about redundancy and outclassed options that are actually proven.
+- Be conservative about irreversible regret but aggressive about redundancy that is actually proven.
 - Challenge Brent or prior AI conclusions when mechanics or evidence do not support them.
 - Stop researching when additional information is unlikely to change the classification; use Manual Review when one material unknown remains.
 - For consequential deletes, state the strongest keep case, what regret would reveal, and what new evidence would reverse the decision.
-- For every meaningful analysis, identify high-impact chase, craft, focus, or upgrade opportunities and name the loadouts they would improve or unlock.
 
-### 0.7 Default Brent preferences
+### 0.6 Default Brent preferences
 
 Unless Brent says otherwise, prefer:
 
 - Safe range and reliable activation over fragile highlight-reel loops.
-- Strong endgame utility, Champion coverage, survivability, control, ammo economy, and weapons that meaningfully strengthen current build engines.
+- Strong endgame utility, Champion coverage, survivability, control, and ammo economy.
 - Weapons that feel responsive and avoid needless downtime.
 - Hard-hitting archetypes when the roll fixes poor handling, stability, or reload friction.
 - Tier 5 flexibility when the selectable combinations cover several real roles.
-- Positive personal evidence such as favorites, locks, crafted status, high kill count, familiar feel, active loadout use, and demonstrated fun.
-- Build-engine enablers and amplifiers—especially for current Warlock engines—over theoretical coverage that is unlikely to be used.
+- Positive personal evidence such as favorites, locks, crafted status, high kill count, familiar feel, and active loadout use.
 - Explainable decisions over opaque scores.
 
 Positive metadata protects or breaks ties. Missing metadata, zero kills, an unlocked state, or no loadout history is **neutral**, not evidence that a roll is bad.
@@ -129,9 +107,6 @@ Positive metadata protects or breaks ties. Missing metadata, zero kills, an unlo
 12. When uncertainty is meaningful, downgrade the recommendation to Manual Review instead of manufacturing confidence.
 13. Never optimize away a Brent-specific preference, explicit statement, protected item, or personal lesson solely to shorten this bootstrap.
 14. When a recommendation depends on current creator consensus, patch behavior, loot availability, or an activity modifier, record the date and source context before allowing it to influence an irreversible decision.
-15. Treat frame, origin-trait, source, and metadata protections as confidence thresholds and regret controls—not automatic permanent retention.
-16. Do not let maximum retention override build power, enjoyment, or clarity when a superior owned or realistically obtainable option covers the role Brent actually uses.
-17. Every major vault analysis must include a proactive armory-improvement view: what to chase, craft, focus, enhance, or test next, and which stronger loadout it enables.
 15. Allocate reasoning depth according to irreversibility, uncertainty, personal significance, source cost, configuration complexity, and policy impact; do not spend equal effort on every item.
 16. For Strong or Definitely Delete decisions involving meaningful value, perform a best-case keep argument and a regret pre-mortem.
 17. Never propagate an unsupported assistant detail into active project truth. Mark it UNVERIFIED and seek Brent or current inventory evidence.
@@ -141,7 +116,7 @@ Positive metadata protects or breaks ties. Missing metadata, zero kills, an unlo
 
 ## 2. What “best in slot” means for this project
 
-“Best in slot” is useful only when the slot is defined narrowly enough to represent a real job **inside a build or encounter plan**. There is rarely one universal best auto rifle, pulse rifle, fusion rifle, or shotgun. The purpose of a BIS benchmark is not collection trivia; it is to identify the weapon that most improves a loadout Brent will use.
+“Best in slot” is useful only when the slot is defined narrowly enough to represent a real job. There is rarely one universal best auto rifle, pulse rifle, fusion rifle, or shotgun.
 
 A useful benchmark looks like:
 
@@ -164,106 +139,74 @@ Define the comparison bucket with the dimensions that matter:
 
 The strongest cleanup question is:
 
-> Which weapons improve or unlock Brent's strongest and most enjoyable loadouts—and which are outclassed or redundant because their real jobs are already covered better?
+> Which weapons in Brent's vault have no realistic use case that is not already covered better by another weapon he owns?
 
-A candidate is **strictly dominated** when another retained or clearly preferred option covers the same practical jobs with equal or better perk combinations, functional stats, build-engine compatibility, source considerations, and Brent fit. Exact-frame, origin-trait, source, and personal protections must be checked, but they do not create value by themselves when no credible loadout uses the difference.
+A candidate is **strictly dominated** only when another retained item covers the same practical jobs with equal or better perk combinations, functional stats, class/build compatibility, source considerations, and personal protections.
 
 A community BIS benchmark helps find dominated weapons, but it does not automatically invalidate different elements, frames, ranges, Champion functions, or build interactions.
 
 ### 2.2 Portable and build-adjusted value
 
-Evaluate every serious roll in at least four contexts:
+Evaluate every serious roll in at least two contexts:
 
-- **Build-engine value:** What current or desired build does it unlock, amplify, stabilize, or simplify?
-- **Portable value:** How good is it without assuming one particular class, subclass, Exotic, artifact, or seasonal modifier?
+- **Portable value:** How good is the weapon without assuming one particular class, subclass, Exotic, artifact, or seasonal modifier?
 - **Build-adjusted value:** How good is it in the specific Hunter, Warlock, Titan, subclass, Exotic, activity, and rotation currently being considered?
-- **Enjoyment/usage value:** Is Brent likely to choose and enjoy it enough for its theoretical strength to matter?
 
-A roll should not be deleted merely because one active build makes one perk redundant, but portable theoretical value is not automatic immunity. Prefer retention when a credible loadout benefits; prefer deletion when superior options cover the meaningful contexts Brent uses and the candidate does not unlock a compelling engine or enjoyable specialist role.
+A roll should not be deleted merely because one active build makes one perk redundant. Prefer deletion when the candidate is dominated across the meaningful contexts Brent actually plays.
 
-### 2.3 Armory prioritization order
+### 2.3 Default retention hierarchy
 
-Prioritize retained weapons, investment, crafting, and future pursuits in this order:
+1. Recognized current god roll or best-in-role roll that fits Brent.
+2. Coherent role roll with strong perk synergy.
+3. Tier 5 weapon that combines multiple valuable legal configurations.
+4. Distinct element, frame, Champion, range, source, or build coverage.
+5. Personal favorite, crafted item, high-kill item, or hard-to-reacquire item.
+6. Niche or speculative roll with a credible use case.
+7. Redundant, incoherent, or strictly dominated copy.
 
-1. **Build-engine enablers and bottleneck solvers.** Weapons that complete, unlock, or materially strengthen the most powerful and enjoyable builds Brent actually uses or is actively developing—especially current Warlock engines and loadouts for the content he wants to beat. A weapon that makes a great build possible outranks one that is merely broadly respectable.
-2. **Best-fit performance upgrades.** Best-in-role or near-best-in-role weapons that improve damage, survivability, control, reliability, Champion handling, ammo economy, execution ease, team value, or recovery from mistakes within those builds.
-3. **Exceptional fun and confidence.** Personal favorites and weapons Brent finds unusually satisfying, intuitive, or confidence-inspiring, particularly when that enjoyment makes him play better or use the build more often. Personal enjoyment is a core outcome, not a sentimental exception.
-4. **High-leverage flexibility.** Crafted, enhanced, or Tier 5 weapons whose legal configurations support several real loadouts, adapt to multiple activities, or allow one excellent item to replace several narrower copies without sacrificing meaningful capability.
-5. **Credible loadout and encounter coverage.** Distinct exact frames, firing behaviors, elements, origin traits, Champion functions, range bands, rotation tools, or encounter solutions that serve a current build, a near-term build plan, or content Brent reasonably expects to play.
-6. **Unique or difficult-to-replace capability.** Costly-source, rare, retired, Adept, raid, dungeon, event, or otherwise difficult-to-reacquire gear when it preserves a meaningful capability, a high-upside build path, or a role not safely replaced elsewhere.
-7. **Experimental potential with a plan.** Niche or speculative rolls only when there is a specific build, activity, interaction, or test plan that could justify them. “Maybe someday” without a credible use case is not sufficient.
-8. **Redundant or outclassed inventory.** Incoherent rolls, clearly weaker same-role copies, theoretical coverage with no meaningful loadout, and items whose functions are already performed better by retained weapons belong at the bottom and should be removed proactively when the comparison is well proven.
-
-This is not a single numerical score. **Power and enjoyment lead; inventory clarity and reduced decision fatigue follow; raw vault-space recovery is a distant by-product.** Exact frames, firing behavior, elements, origin traits, costly sources, legal Tier configurations, and Brent's personal metadata remain mandatory safeguards. They raise the standard of proof and identify real tradeoffs, but they do not grant permanent immunity to an item that no longer contributes meaningfully to Brent's armory.
+Do not reduce this hierarchy to one score unless every component remains visible in the audit. The hierarchy decides which copies deserve priority; the deletion categories below decide what action, if any, is justified.
 
 ---
 
-## 3. Deletion philosophy and categories
-
-Deletion is a form of **armory optimization**, not the purpose of the project. The purpose is to concentrate Brent's time, materials, attention, and vault slots on weapons that create stronger and more enjoyable builds. A retained weapon should enable, improve, preserve, or credibly lead toward a real loadout, build engine, encounter solution, valued play experience, or difficult-to-replace capability.
-
-For every keep/delete decision, ask first:
-
-> What new or stronger loadouts does keeping or deleting this enable?
-
-Then apply two gates:
-
-1. **Build-contribution gate:** Does this item materially improve power, fun, reliability, flexibility, or access to content Brent cares about—or does a superior retained option already perform that job?
-2. **Safeguard gate:** Would deletion lose a meaningful exact frame, firing behavior, element, origin trait, legal Tier configuration, costly-source capability, personal preference, metadata signal, or difficult-to-reacquire function?
-
-Be proactive about deleting a clearly outclassed or redundant roll when a superior retained weapon covers the roles and build engines Brent actually uses or is actively pursuing. Do not preserve an item solely because it is technically different, difficult to reacquire, once popular, or hypothetically useful. Those facts increase the burden of proof and may justify Manual Review, but they are not substitutes for a credible loadout contribution.
-
-A good deletion can increase power and enjoyment indirectly by reducing decision fatigue, making the best choices obvious, freeing room for better drops, focusing crafting and enhancement resources, and encouraging experimentation with the strongest available armory. **Mechanical safeguards remain mandatory; maximum retention does not.**
+## 3. Deletion categories
 
 ### Definitely Delete
 
 Use only when the case is exceptionally clear, such as:
 
-- Exact duplicate with no better component, metadata, source, investment, or historical value.
-- Same weapon/version where every useful legal configuration and practical role is covered by a retained copy with equal or better functional stats.
-- A clearly outclassed same-role roll whose retained replacement better supports Brent's actual or near-term build engines, with no meaningful lost frame, firing behavior, element, origin trait, source, personal value, or configuration advantage.
-- Duplicate Exotic where the retained copy has the catalyst or required upgrade and the candidate adds no useful function.
+- Exact duplicate with no better component, metadata, source, or historical value.
+- Same weapon/version and every useful legal configuration is covered by a retained copy with equal or better practical stats.
+- Duplicate Exotic where the retained copy has the catalyst or required upgrade and the candidate adds nothing.
 
 ### Strong / Probable Delete
 
 Use when:
 
-- The candidate is substantially weaker for Brent's priorities than a retained alternative.
-- Its real roles and relevant build engines are covered better elsewhere.
-- Its remaining advantage is minor, purely theoretical, unsupported by a concrete loadout, or unlikely to justify the decision friction and armory clutter it creates.
-- Keeping it would divert attention, materials, or future investment from a clearly superior weapon or build path.
+- The candidate is heavily outclassed in Brent's priorities.
+- Its real roles are covered by stronger retained items.
+- Any remaining advantage is minor, speculative, or unlikely to justify a vault slot.
 
-Brent still performs the final review and dismantle.
+Human review is still required.
 
 ### Manual Review
 
 Use when:
 
-- The replacement crosses weapon versions, exact frames, firing behaviors, elements, or important origin traits.
-- A class, subclass, Exotic, artifact, activity, or rotation interaction could materially change the ranking.
-- The candidate has unusual functional stats, a costly or rare source, a personal signal, meaningful investment, or a credible niche interaction.
-- Current mechanics, source availability, or the exact retained replacement cannot be verified confidently.
-- The choice depends primarily on Brent's enjoyment, feel, or future build intent rather than clear mechanical dominance.
-
-Manual Review is a request for a focused decision—not indefinite protection.
+- The replacement crosses weapon versions, frames, elements, or important origin traits.
+- A class/build interaction materially changes the ranking.
+- The candidate has unusual stats, a rare source, a personal signal, or a niche perk interaction.
+- Current behavior cannot be verified confidently.
+- The decision is preference-driven rather than mechanically dominant.
 
 ### Keep
 
-Keep an item when it:
-
-- Completes, unlocks, or materially improves a strong or enjoyable build Brent uses or is actively developing.
-- Is best-in-role or offers a meaningful advantage that is not safely replaced in the relevant loadout or content.
-- Is unusually fun, confidence-inspiring, or personally important to Brent in a way that contributes to actual play.
-- Preserves meaningful exact-frame, firing-behavior, element, origin-trait, Champion, source, encounter, rotation, or legal-configuration capability.
-- Is difficult to reacquire and has a concrete current, near-term, or high-value experimental purpose.
-
-A keeper should have a reason to exist in the armory. The reason may be power, fun, flexibility, unique capability, personal value, or credible future leverage—but it should be explicit.
+Use when the item is best-in-role, distinctly useful, difficult to replace, personally important, or needed for meaningful coverage.
 
 ---
 
 ## 4. Coverage model
 
-Treat the vault as a **high-performance armory for real loadouts**, not a museum, a collection of isolated wishlist scores, or a risk-avoidance archive. Coverage matters when it enables a credible build, activity, encounter, or enjoyable play pattern.
+Treat the vault as a loadout toolbox, not a collection of isolated wishlist scores.
 
 ### 4.1 Required coverage dimensions
 
@@ -465,8 +408,6 @@ A roll should answer:
 - How reliably does it activate?
 - What resource or opportunity cost does it require?
 - What other roll in Brent's vault already does the same job?
-- What new or stronger loadout does this enable, and would Brent realistically choose it?
-- Is a chase, craft, focus, enhancement, or catalyst a better answer than preserving this roll?
 
 ### 8.2 Common role families
 
@@ -595,24 +536,22 @@ A dungeon-exclusive item is not automatic immunity. It requires a stronger, well
 
 Use this order:
 
-1. What build engine, loadout, or target content does the roll improve?
-2. Is that contribution covered better by a stronger or more enjoyable option?
-3. What meaningful specialist function or tradeoff would be lost?
+1. Does the roll provide a real role?
+2. Is that role covered better elsewhere?
+3. What meaningful tradeoff would be lost?
 4. How hard is the item to reacquire?
-5. Does personal investment, demonstrated fun, or current use justify protection?
-6. Would keeping it delay or obscure a superior chase, craft, or focus target?
+5. Does personal investment or use justify protection?
 
-Source is a strong threshold modifier and regret control, not a substitute for armory contribution.
+Source is a strong tiebreaker, not a substitute for quality analysis.
 
 ---
 
-## 11. Required build-and-armory analysis workflow
+## 11. Required vault-analysis workflow
 
-### Step 0 — Define the outcome and reconcile authority
+### Step 0 — Reconcile authority and personal evidence
 
-- Read the Project North Star, Decision Doctrine, and Personal Evidence Ledger.
-- Name the content, build engine, or armory capability being improved. If the request is broad, begin with current Warlock engines and Brent's stated content priorities, then preserve class-portable value where meaningful.
-- Check whether Brent's newest explicit statements conflict with the active bootstrap or latest export date.
+- Read the Decision Doctrine and Personal Evidence Ledger.
+- Check whether Brent's newest explicit statements conflict with the active bootstrap or the latest export date.
 - Separate established facts, AI inferences, historical context, and open questions.
 - Run the State Reconciliation Protocol before relying on a stale assumption or changing a broad rule.
 
@@ -620,85 +559,61 @@ Source is a strong threshold modifier and regret control, not a substitute for a
 
 - Use the newest export.
 - Record file name, date, row count, unique names, duplicate groups, Tier distribution, and SHA-256.
-- Confirm DIM columns and item-ID format.
+- Confirm the DIM columns and item-ID format.
 
-### Step 2 — Map build engines and target loadouts
+### Step 2 — Protect metadata
 
-For each current or desired engine under review, record:
+Separate user-created metadata from known AI-generated tags/notes. Preserve favorites, keeps, locks, loadouts, crafted items, holofoils, kill counts, and sentimental notes.
 
-- Class/subclass, Exotic armor, artifact dependence, and target activity.
-- Required weapon functions—not merely example names.
-- Best owned weapon for each function.
-- Missing, weak, or outdated armory components.
-- The strongest realistic chase, craft, focus, catalyst, enhancement, or test that would improve the engine.
+### Step 3 — Group comparisons
 
-### Step 3 — Protect metadata and personal evidence
+Start with exact same-name, same-hash/version copies. Then build broader coverage groups by weapon type, exact frame, element, slot/ammo, range, Champion role, origin trait, and build function.
 
-Separate user-created metadata from known AI-generated tags/notes. Preserve favorites, keeps, locks, loadouts, crafted items, holofoils, kill counts, sentimental notes, and explicit Brent statements. Protection raises the burden of proof; it does not automatically make an outclassed item armory-critical.
-
-### Step 4 — Group comparisons
-
-Start with exact same-name, same-hash/version copies. Then build broader role groups by weapon type, exact frame, element, slot/ammo, range, Champion role, origin trait, build function, and loadout engine.
-
-### Step 5 — Enumerate configurations
+### Step 4 — Enumerate configurations
 
 For every serious candidate and retained replacement, enumerate legal perks and useful component configurations. Tier 5 weapons require legal-combination coverage rather than currently selected perks.
 
-### Step 6 — Assign armory contribution
+### Step 5 — Assign roles
 
-Map each useful configuration to actual builds, roles, activities, and enjoyment patterns. Record:
+Map every useful configuration to actual roles and activities. Include portable and class/build-adjusted roles.
 
-- Build-engine value.
-- Portable value.
-- Class/build-adjusted value.
-- Rotation value.
-- Enjoyment and likelihood-of-use value.
-- Whether keeping or deleting it enables a new or stronger loadout.
+### Step 6 — Calculate practical packages
 
-### Step 7 — Calculate practical packages
+Use fully upgraded potential when Brent would reasonably invest. Compare final stats, timings, recoil behavior, magazines, reserves, and rotation behavior.
 
-Use fully upgraded potential when Brent would reasonably invest. Compare final stats, timings, recoil behavior, magazines, reserves, rotation behavior, and execution friction.
+### Step 7 — Apply current community evidence
 
-### Step 8 — Apply current evidence and upgrade opportunities
+Use current Community Insights, official perk behavior, strong creator evidence, and community-supported god rolls. Wishlist absence is neutral. Verify time-sensitive facts online.
 
-Use current Community Insights, official perk behavior, strong creator evidence, community-supported god rolls, and current source availability. Wishlist absence is neutral. Verify time-sensitive facts online. Identify superior obtainable options and state what build they improve.
+### Step 8 — Apply dominance and coverage rules
 
-### Step 9 — Apply dominance, protection, and opportunity cost
+A candidate can be high-confidence only when the retained item covers its meaningful roles without losing essential frame, element, origin-trait, source, class/build, personal, or stat-package value.
 
-A candidate can be high-confidence only when the retained or targeted superior item covers its meaningful roles without losing essential frame, element, origin-trait, source, class/build, personal, or stat-package value. Also consider the cost of retention: clutter, false equivalence, decision fatigue, and delayed focus on a superior option.
+### Step 9 — Assign confidence
 
-### Step 10 — Assign outcome and confidence
-
-- High: explainable same-version redundancy, exact duplicate, or clearly outclassed roll with complete used-role coverage.
-- Medium: strong conclusion with a minor or preference-dependent tradeoff.
+- High: explainable same-version redundancy or exact duplicate.
+- Medium: strong candidate with a minor or preference-dependent tradeoff.
 - Low: Manual Review only.
-- Separate **Keep/Review/Delete** from **Chase/Craft/Focus priority**; an item may be kept temporarily while actively targeted for replacement.
 
-### Step 11 — Produce decision receipts and an armory improvement plan
+### Step 10 — Produce audit and DIM proposal
 
-For each serious candidate include:
+For each candidate include:
 
-- Weapon name and defined build/role contribution.
-- Candidate item ID/hash, version, Tier, frame, firing behavior, element, origin traits, perks, components, Masterwork, and relevant final stats.
-- Candidate build-engine, portable, active-build, rotation, and enjoyment value.
-- Retained replacement or targeted superior option and corresponding details.
-- Exact coverage argument and the answer to: **What new or stronger loadout does keeping/deleting this enable?**
+- Weapon name.
+- Candidate item ID and weapon hash/version.
+- Candidate tier, frame, firing behavior, element, origin traits, perks, component highlights, Masterwork, and relevant final stats.
+- Candidate portable and active-build roles.
+- Retained replacement item ID and corresponding details.
+- Exact coverage argument.
 - Lost tradeoff, if any.
 - Source, obtainability, and reacquisition cost.
-- Positive metadata/personal signals and relevant Personal Evidence Ledger ID(s).
-- Strongest honest keep argument for consequential deletions.
+- Positive metadata/personal signals.
+- Relevant Personal Evidence Ledger ID(s), explicit statements from Brent, and whether they are durable preferences or build-specific context.
+- The strongest honest keep argument for consequential deletions.
 - What new evidence would reverse the decision.
 - Confidence and review instruction.
 
-Then provide a prioritized **Armory Improvement Plan**:
-
-1. Highest-impact build gap.
-2. Recommended chase/craft/focus/test.
-3. Build or content capability unlocked.
-4. Existing item likely replaced or demoted.
-5. Effort, source, and urgency.
-
-Never produce only a naked list of item IDs, and never make vault-space reduction the headline result when build capability is the real outcome.
+Never produce only a naked list of item IDs.
 
 ---
 
@@ -747,7 +662,7 @@ DIM cannot dismantle gear. Tagging is a reversible review workflow; dismantling 
 ### Active proposed import
 
 - `DIM-Imports/proposed/DIM-Import-Junk-God-Roll-Validated-7-2026-07-19.csv`
-- Contains seven conservative candidates created before the v2.9 goal reframe. They are not automatically invalid, but should receive a quick build-engine and armory-contribution check before use.
+- Contains seven conservative candidates.
 - Older eight-item and 38-item files are archived and are not current recommendations.
 - The 16 cross-version candidates remain a hold/manual-revalidation set.
 
@@ -799,47 +714,31 @@ A Hunter build with Marksman's Dodge may prefer a utility-plus-damage primary ov
 
 ---
 
-## 15. Build-engine and armory roadmap guidance
+## 15. Current build-library guidance
 
-The project should be organized around **build engines and content solutions**, with the vault serving them.
+Maintain two different libraries:
 
-### Current engine portfolio
+### Durable engine library
 
-Maintain a living portfolio of current engines, beginning with high-value Warlock engines and expanding to Hunter, Titan, and portable weapon packages as Brent uses them. For each engine record:
+Long-lived build families supported by mechanics and current evidence, such as subclass engines, survivability loops, control loops, and broadly useful damage rotations.
+
+### Encounter solution library
+
+Exact answers for a particular GM, dungeon encounter, raid phase, solo route, modifier set, or boss. Encounter solutions should not become universal defaults without evidence.
+
+For every saved build, record:
 
 - Date and sandbox.
 - Class/subclass and Exotic armor.
-- Target content and difficulty.
-- Core loop and failure/recovery behavior.
-- Required weapon functions.
-- Best owned options and why they fit Brent.
-- Missing or weak armory components.
-- Best chase, craft, focus, catalyst, or enhancement target.
-- Artifact, bug, or temporary-modifier dependency.
-- Execution burden, enjoyment, and likelihood of real use.
+- Activity/encounter/difficulty.
+- Artifact or bug dependency.
+- Required weapon functions, not just example weapon names.
+- Alternate weapons that satisfy the same function.
+- Execution burden and recovery after failure.
 
-### Durable engines versus encounter solutions
+This prevents one creator's example weapon from being misread as a mandatory vault keeper.
 
-Maintain both:
-
-- **Durable engines:** Long-lived build families supported by mechanics and current evidence, such as survivability, control, ability loops, and broadly useful damage rotations.
-- **Encounter solutions:** Exact answers for a GM, dungeon encounter, raid phase, solo route, modifier set, or boss.
-
-Encounter solutions should not become universal defaults without evidence, and durable coverage should not be retained without a credible loadout path.
-
-### Armory gap and upgrade queue
-
-Every major analysis should produce a short prioritized queue:
-
-1. The most valuable missing capability.
-2. The strongest realistic target to chase, craft, focus, enhance, catalyst, or test.
-3. The loadout or content that target improves.
-4. The current placeholder it replaces or demotes.
-5. Source difficulty and expected payoff.
-
-This turns the project from reactive cleanup into continuous build improvement. It also prevents a creator's example weapon from being misread as mandatory: record the required function and compare alternatives, but proactively pursue a superior tool when it materially raises power or enjoyment.
-
-Maintain the Personal Evidence Ledger whenever Brent gives a meaningful preference or corrects an assumption. Record what he said, context, date if known, and analytical consequence. Do not convert a single situational comment into a universal preference without evidence.
+Maintain a small **personal evidence ledger** in this bootstrap or a linked reference whenever Brent gives a meaningful preference or corrects an assumption. Record what he said, the weapon/build/activity context, the date if known, and the analytical consequence. Do not convert a single situational comment into a universal preference without evidence.
 
 ---
 
@@ -883,9 +782,6 @@ Before a major deletion pass, first reconcile the active bootstrap, Personal Evi
 - Whether a newer explicit Brent statement supersedes an older active description.
 - Whether unsupported assistant inferences have entered the active files.
 - Whether changed assumptions affect an existing DIM proposal or prior deletion audit.
-- Whether the analysis began from a real build/content objective rather than vault-space pressure alone.
-- Whether a clearly superior chase, craft, focus, enhancement, catalyst, or test has been identified.
-- Whether theoretical coverage is being retained without a credible loadout path.
 
 Mechanics around or after the repository's July 2026 source window require fresh research.
 
@@ -893,39 +789,30 @@ Mechanics around or after the repository's July 2026 source window require fresh
 
 ## 18. Recommended resume prompt
 
-> Continue Brent's Destiny 2 build-and-armory project by reading `Brents-Destiny-2-AI-Bootstrap.md`, `docs/Project-North-Star.md`, `docs/Brent-Decision-Doctrine.md`, `docs/Brent-Personal-Evidence-Ledger.md`, and the newest DIM export. The primary objective is stronger, more enjoyable, more capable loadouts for content Brent cares about; inventory clarity is secondary and vault space is tertiary. Begin with current Warlock engines when the request is broad, while preserving meaningful portable and other-class value. Treat current BRENT-EXPLICIT ledger entries as authoritative for player fit; do not promote AI inference to Brent fact. Enumerate legal Tier configurations, compare exact versions/frames/elements/origin traits and full configured stat packages, and evaluate build-engine, portable, class-adjusted, rotation, and enjoyment value. Ask for every serious item: “What new or stronger loadout does keeping/deleting this enable?” Be willing to delete clearly outclassed or redundant rolls when a superior option covers the roles Brent uses, while retaining strong frame, source, origin-trait, and personal safeguards. Verify current mechanics and dated creator/community evidence, and produce auditable decision receipts plus a prioritized chase/craft/focus plan that identifies the loadouts each target improves.
+> Continue Brent's Destiny 2 vault cleanup by reading `Brents-Destiny-2-AI-Bootstrap.md`, `docs/Brent-Decision-Doctrine.md`, `docs/Brent-Personal-Evidence-Ledger.md`, and the newest DIM export. Treat current BRENT-EXPLICIT ledger entries as authoritative for player fit; do not promote AI inference to Brent fact. Preserve Brent's explicit statements, personal examples, protected items, user metadata, and positive personal signals; treat zero kills and missing tags as neutral. Enumerate Tier 5 legal configurations, compare exact versions/frames/elements/origin traits and full configured stat packages, and evaluate portable, class/build-adjusted, and rotation value—especially Hunter reload interactions. Verify current official mechanics and dated creator/community evidence, protect source/reacquisition cost and meaningful coverage, and produce only an auditable conservative DIM proposal with retained replacements and explicit tradeoffs.
 
 ---
 
 ## 19. Final guiding principle
 
-The wrong questions are:
+The wrong question is:
 
-> How much vault space can we recover?
-
-> What can we preserve just in case?
+> Which roll has the highest wishlist score?
 
 The right question is:
 
-> What combination of weapons, builds, and pursuits gives Brent the strongest, most enjoyable, and most capable armory for the content he wants to beat—and does each retained item materially enable, improve, or preserve one of those loadouts?
+> Which items provide distinct practical value for Brent across the activities, classes, builds, roles, and rotations he actually uses—and which items are genuinely redundant after every legal configuration, functional stat package, coverage dimension, source cost, and personal signal has been considered?
 
-For every consequential decision, ask:
-
-> What new or stronger loadouts does keeping or deleting this enable?
-
-Keep weapons because they strengthen or unlock real build engines, are genuinely fun or personally valuable, preserve meaningful exact-frame/origin-trait/source capability, or support a credible near-term pursuit. Delete clearly outclassed or redundant rolls when better options cover the roles and engines Brent actually uses. Use the resulting clarity to focus crafting, farming, experimentation, and play on the armory that creates the most power and enjoyment.
-
-**The vault serves the builds, the content, and the fun—not the other way around.**
+That is the standard for all future vault cleanup.
 
 ---
 
 ## 20. Reference map
 
-- Project North Star: `docs/Project-North-Star.md`
 - Decision doctrine: `docs/Brent-Decision-Doctrine.md`
 - Personal evidence ledger: `docs/Brent-Personal-Evidence-Ledger.md`
 - State reconciliation protocol: `docs/State-Reconciliation-Protocol.md`
-- Release validation: `docs/Release-Validation-v2.10.md`
+- Release validation: `docs/Release-Validation-v2.8.md`
 - Recoil Direction: `docs/Recoil-Direction-Mechanics.md`
 - Hunter/class reload valuation: `docs/Class-Adjusted-Reload-and-Sustain.md`
 - Super economy and Bad Juju: `docs/Super-Economy-and-Bad-Juju.md`
@@ -935,9 +822,8 @@ Keep weapons because they strengthen or unlock real build engines, are genuinely
 - Detailed v2.4 creator research: `docs/research/Warlock-Creator-Build-Research-v2.4.md`
 - Full legacy bootstrap: `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.4.1-Legacy.md`
 - Human-facing project overview: `Brents-Destiny-2-Human-Bootstrap.md`
-- Bootstrap and reasoning architecture: `docs/Bootstrap-Architecture-v2.10.md`
-- Prior active AI bootstrap: `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.9.md`
-- Prior active human bootstrap: `docs/history/Brents-Destiny-2-Human-Bootstrap-v2.9.md`
-- Prior Decision Doctrine: `docs/history/Brent-Decision-Doctrine-v2.8.md`
+- Bootstrap and reasoning architecture: `docs/Bootstrap-Architecture-v2.8.md`
+- Prior active AI bootstrap: `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.7.md`
+- Prior active human bootstrap: `docs/history/Brents-Destiny-2-Human-Bootstrap-v2.7.md`
 - Earlier trusted AI bootstrap: `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.1.md`
 - v2.5 optimization report: `docs/Bootstrap-Optimization-Report-v2.5.md`

@@ -1,33 +1,16 @@
-# Brent's Destiny 2 Armory & Build Project — Human Bootstrap
+# Brent's Destiny 2 Vault Project — Human Bootstrap
 
-**Repository version:** 2.10  
+**Repository version:** 2.8  
 **Updated:** July 25, 2026  
 **Stable filename:** `Brents-Destiny-2-Human-Bootstrap.md`  
 **Audience:** Friends, clanmates, and curious humans who want to understand the project without reading the full AI operating manual.  
 **Detailed AI file:** `Brents-Destiny-2-AI-Bootstrap.md`  
-**Project North Star:** `docs/Project-North-Star.md`  
 **How the AI reasons:** `docs/Brent-Decision-Doctrine.md`  
 **What Brent explicitly said:** `docs/Brent-Personal-Evidence-Ledger.md`
 
 ## The project in one paragraph
 
-Brent's project is ultimately about **playing better Destiny and having more fun doing it**. The aim is to create the strongest, most enjoyable, and most capable builds possible for the content he cares about. His very full vault is important only because it is the raw material for those builds. The project uses AI, DIM data, mechanics, creator evidence, and Brent's own experience to turn that collection into a high-performance armory—while identifying what he should chase, craft, or focus next.
-
-## The new North Star
-
-The priorities are now simple:
-
-1. **Strong and enjoyable builds come first.**
-2. **A clear armory with less decision fatigue comes second.**
-3. **Vault space comes a distant third.**
-
-That means the project should be more willing to discard clearly inferior or redundant rolls when a better option covers the builds Brent actually uses. It also means the AI should not stop at cleanup. It should proactively identify what Brent should chase, craft, focus, enhance, catalyst, or test—and explain which new loadout that improvement makes possible.
-
-The question behind every important weapon is:
-
-> **What new or stronger loadout does keeping or deleting this enable?**
-
-The safeguards still matter. Frames, origin traits, elements, source difficulty, full stat packages, and personal favorites can make an item genuinely distinct. But “it is different” is no longer enough by itself. The difference should have a credible job in the armory.
+Brent has a very full Destiny 2 vault, a lot of duplicate weapons, and not enough time to compare every perk, frame, stat package, source, build interaction, and selectable Tier 5 combination by hand. The goal of this project is not to let an AI blindly decide which guns are “bad.” It is to build an evidence-based inventory system that can identify weapons Brent already owns that are genuinely redundant—while protecting unique roles, hard-to-reacquire gear, favorite weapons, build-enabling rolls, and anything whose value changes with class, activity, or playstyle.
 
 ## Why this is harder than “keep the god rolls”
 
@@ -35,25 +18,21 @@ A Destiny weapon is not just its name and two famous perks. Two copies of the sa
 
 Even “best in slot” needs a complete sentence. There may be a best Solar support auto rifle for a particular kind of PvE build, but that does not automatically make every other auto rifle obsolete. A different element, frame, range band, Champion function, PvP role, or subclass interaction may justify another vault slot.
 
-The central questions are therefore not:
+The central question is therefore not:
 
 > Which gun has the lowest score?
 
-> Can we imagine any theoretical reason to keep this?
+It is:
 
-They are:
+> Which weapon has no realistic job that is not already covered better by another weapon Brent owns?
 
-> **What new or stronger loadout does keeping or deleting this enable?**
-
-> Which differences create real capability, and which merely duplicate a better tool?
-
-That is a stricter, safer, and more useful standard.
+That is a much stricter and safer standard.
 
 ## Brent's situation and priorities
 
-Brent uses Destiny Item Manager (DIM), describes himself as a pack rat, and has limited time for inventory maintenance. He wants a clear armory and less decision fatigue, but he does not want a black-box score or a reckless mass-deletion list. He is conservative about irreversible dismantling while still being willing to delete proven redundancy when the stronger option and build consequence are clear. Space matters when it becomes an operational constraint, not as the purpose of the project.
+Brent uses Destiny Item Manager (DIM), describes himself as a pack rat, and has limited time for inventory maintenance. He wants meaningful space back, but he does not want a black-box score or a reckless mass-deletion list. He is conservative about irreversible dismantling, while still being willing to accept controlled risk when the reasoning and replacement coverage are clear.
 
-The activities that matter most include difficult PvE, Grandmasters/Conquests, raids, dungeons, solo survival, and strong general-purpose builds. Current Warlock build engines receive special attention, while Hunter and portable weapon value remain part of the picture. He generally values safe range, reliable perk activation, survivability, control, Champion utility, ammo economy, responsiveness, and weapons that minimize needless downtime. He can enjoy hard-hitting archetypes when a good roll fixes their sluggish handling, stability, or reload problems.
+The activities that matter most include difficult PvE, Grandmasters/Conquests, raids, dungeons, solo survival, and strong general-purpose builds. He generally values safe range, reliable perk activation, survivability, control, Champion utility, ammo economy, responsiveness, and weapons that minimize needless downtime. He can enjoy hard-hitting archetypes when a good roll fixes their sluggish handling, stability, or reload problems.
 
 Warlock has historically been his most-developed class, but he recently started playing Hunter again. That matters because class abilities and builds can change weapon value. His comments about how a particular weapon feels, why he likes it, or what he is currently playing are treated as real project data—not disposable conversation.
 
@@ -144,7 +123,7 @@ Brent wants the project to study respected Destiny content creators and communit
 
 This matters because creator opinions age. A weapon described as the best in one season may be outclassed after later perks, balance changes, or new loot. Community “god roll” lists are useful evidence, not commands.
 
-## The safety system—and why it does not mean keeping everything
+## The safety system
 
 The AI never dismantles anything. It can create a DIM import that tags a small set of weapons as `junk` for Brent to review, but Brent performs the final in-game action.
 
@@ -159,7 +138,7 @@ Before recommending deletion, the system is expected to:
 7. Account for source difficulty and reacquisition time.
 8. Downgrade uncertain cases to manual review instead of pretending certainty.
 
-Zero kills, an unlocked state, or missing DIM metadata are neutral. Positive evidence can protect an item, but missing evidence does not condemn it. These safeguards raise the burden of proof; they are not a command to keep every rare or unusual roll when a superior option already serves the real build.
+Zero kills, an unlocked state, or missing DIM metadata are neutral. Positive evidence can protect an item, but missing evidence does not condemn it.
 
 ## Where the project currently stands
 
@@ -187,17 +166,14 @@ The repository includes:
 
 ## The long-term goal
 
-The end goal is not the smallest possible vault—or the largest possible collection. It is an armory that helps Brent assemble awesome loadouts quickly, understand why they work, and know what improvement matters next.
+The end goal is not the smallest possible vault. It is a vault where each retained weapon has a reason to exist: a distinct role, a superior configuration, a class/build interaction, a hard-to-replace source, or personal value.
 
-A successful analysis should tell him:
+A successful cleanup should let Brent look at a proposed deletion and understand both sides:
 
-- Which builds are strongest and most enjoyable for the content he cares about
-- Which weapons are essential to those engines
-- Which owned rolls are clearly weaker or redundant
-- Which specialist tools genuinely add capability
-- What he should chase, craft, focus, enhance, catalyst, or test next
-- What new or stronger loadout each recommendation enables
+- Why this copy appears redundant
+- Which retained item replaces it
+- What the replacement covers
+- What small advantage might be lost
+- How confident the analysis is
 
-The ideal result is not a museum with one of everything. It is a deliberate capability portfolio: powerful engines, reliable generalists, valuable specialists, personal favorites that truly earn use, and a clear upgrade path.
-
-**Builds first. Armory second. Space third.**
+That is slower than blindly following a wishlist, but much faster and safer than Brent manually comparing more than a thousand weapons one at a time. It also turns the vault into a deliberate loadout toolbox rather than an unexplained collection of scores.

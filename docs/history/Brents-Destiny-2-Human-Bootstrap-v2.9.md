@@ -1,6 +1,6 @@
 # Brent's Destiny 2 Armory & Build Project — Human Bootstrap
 
-**Repository version:** 2.10  
+**Repository version:** 2.9  
 **Updated:** July 25, 2026  
 **Stable filename:** `Brents-Destiny-2-Human-Bootstrap.md`  
 **Audience:** Friends, clanmates, and curious humans who want to understand the project without reading the full AI operating manual.  

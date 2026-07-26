@@ -82,3 +82,22 @@ For each meaningful statement or correction, record:
 - Durable preference or temporary build state:
 - Analytical consequence:
 - Superseded by a later statement?
+
+## Reasoning and evidence preferences
+
+- How much explanation is desired for routine versus high-impact decisions?
+- Should the AI challenge the player directly when mechanics or assumptions appear wrong?
+- What kinds of regret would be worst: losing a favorite, losing rare gear, keeping too many speculative rolls, or spending too much review time?
+- Which statements are durable preferences versus current-build context?
+- Which evidence should be recorded with stable ledger IDs?
+- What would justify changing a prior keep/delete conclusion?
+
+## Update protocol
+
+When the player corrects or changes something:
+
+1. Record the exact statement without embellishment.
+2. Label direct statement, inventory observation, mechanic, community evidence, and AI inference separately.
+3. Update the player's evidence ledger.
+4. Search active documents and recommendations for stale assumptions.
+5. Preserve superseded context as history when useful.
