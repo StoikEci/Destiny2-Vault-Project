@@ -1,13 +1,15 @@
 # Repository Manifest
 
-- Repository: `Brents-Destiny-2-AI-Repository-v2.5`
-- Version: `2.5`
+- Repository: `Destiny2-Vault-Project`
+- Version: `2.7`
 - Updated: `2026-07-25`
-- Primary bootstrap: `Brents-Destiny-2-AI-Bootstrap-v2.5.md`
+- Authoritative AI bootstrap: `Brents-Destiny-2-AI-Bootstrap.md`
+- Human-facing bootstrap: `Brents-Destiny-2-Human-Bootstrap.md`
 
 ## Active operating files
 
-- `Brents-Destiny-2-AI-Bootstrap-v2.5.md`
+- `Brents-Destiny-2-AI-Bootstrap.md`
+- `Brents-Destiny-2-Human-Bootstrap.md`
 - `README.md`
 - `CHANGELOG.md`
 - `templates/Player-Profile-Template.md`
@@ -16,6 +18,7 @@
 
 ## Permanent references
 
+- `docs/Bootstrap-Architecture-v2.7.md`
 - `docs/Class-Adjusted-Reload-and-Sustain.md`
 - `docs/Super-Economy-and-Bad-Juju.md`
 - `docs/Recoil-Direction-Mechanics.md`
@@ -24,9 +27,13 @@
 - `docs/Frame-Intrinsic-and-Origin-Trait-Coverage.md`
 - `docs/God-Roll-Perk-Synergy-and-Metadata-Policy.md`
 - `docs/Bootstrap-Optimization-Report-v2.5.md`
+- `docs/GitHub-Update-v2.7.md`
+- `docs/SHA256SUMS-v2.7.txt`
 
 ## Historical/reference research
 
+- `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.1.md`
+- `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.md`
 - `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.4.1-Legacy.md`
 - `docs/research/Warlock-Creator-Build-Research-v2.4.md`
 

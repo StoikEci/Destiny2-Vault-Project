@@ -4,7 +4,7 @@
 **Origin:** Extracted from the legacy v2.4.1 bootstrap during the v2.5 optimization.  
 **Scope:** Detailed analysis of six filtered Builders.gg Warlock result pages, creator evidence, build-card notes, source indexes, subclass synthesis, and build-derived weapon-retention implications.
 
-This document preserves the detailed research log. It is **historical evidence**, not a permanently current meta list. Reverify mechanics, patches, artifacts, build links, and activity context before using it for a new vault deletion. The active operating rules and current synthesis live in the root v2.5 bootstrap.
+This document preserves the detailed research log. It is **historical evidence**, not a permanently current meta list. Reverify mechanics, patches, artifacts, build links, and activity context before using it for a new vault deletion. The active operating rules and current synthesis live in the canonical root bootstrap.
 
 **Superseded rule:** Any passage below that presents Bad Juju as the default Super-generation weapon is overridden by `docs/Super-Economy-and-Bad-Juju.md`.
 

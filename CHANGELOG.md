@@ -1,11 +1,25 @@
 # Change Log
 
+## v2.7 — July 25, 2026
+
+- Rejected the v2.6 over-compression experiment as the active bootstrap design.
+- Restored the richer v2.5.1 AI-bootstrap structure and retained separate sections whose repetition improves safety, readability, and auditability.
+- Added `Brents-Destiny-2-Human-Bootstrap.md`, a readable project narrative for friends and other humans.
+- Kept `Brents-Destiny-2-AI-Bootstrap.md` as the authoritative detailed operating file.
+- Added explicit rules that Brent-specific preferences, corrections, examples, protected items, and direct statements are project data and must not be optimized away solely for brevity.
+- Added Brent's time constraint, self-described pack-rat tendency, creator-research preference, and continuity preference to the AI context.
+- Added publication-date, role, activity, roll/function, and independent-agreement requirements for creator-backed BIS benchmarks.
+- Added `docs/Bootstrap-Architecture-v2.7.md` describing the two-audience design.
+- Preserved the exact v2.5.1 AI bootstrap at `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.1.md`.
+- Updated README, manifest, friend prompt, player profile, vault-analysis prompt, checksums, and GitHub update instructions.
+- No vault exports, DIM imports, analysis workbooks, candidate audits, or existing weapon-policy references changed.
+
 ## v2.5.1 — July 25, 2026
 
 - Renamed the active root bootstrap to the stable canonical filename `Brents-Destiny-2-AI-Bootstrap.md`.
 - Established the rule that future releases overwrite the canonical root bootstrap instead of creating another version-numbered root file.
 - Preserved the exact v2.5 bootstrap as `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.md`.
-- Updated README, manifest, friend onboarding, optimization-report, research, and continuity-prompt references to the canonical filename.
+- Updated README, manifest, friend onboarding, optimization-report, research, and resume-prompt references to the canonical filename.
 - No vault exports, DIM imports, analysis workbooks, candidate audits, or weapon-policy content changed in this maintenance release.
 
 ## v2.5 — July 25, 2026

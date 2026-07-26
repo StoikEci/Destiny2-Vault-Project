@@ -1,39 +1,50 @@
-# Brent's Destiny 2 AI Repository v2.5.1
+# Brent's Destiny 2 Vault Project v2.7
 
-This repository packages Brent's active Destiny 2 vault-intelligence framework, current vault snapshots and analyses, reusable prompts, and preserved research history.
+This repository packages Brent's Destiny 2 vault-intelligence framework, current vault snapshots and analyses, reusable prompts, and preserved research history.
 
-## Start here
+## Choose the right starting file
+
+### For an AI continuing or performing vault analysis
 
 Open:
 
 `Brents-Destiny-2-AI-Bootstrap.md`
 
-The active bootstrap is optimized for fast continuity. It contains the operating model, current project state, Tier and coverage rules, class/build-adjusted weapon valuation, Hunter reload implications, recoil mechanics, creator-evidence rubric, source protection, and DIM-safe workflow.
+This is the authoritative operating file. It contains the full decision model, Brent-specific preferences and explicit statements, safety rules, Tier and coverage analysis, class/build-adjusted valuation, current project state, evidence standards, source protection, and DIM workflow.
 
-**Stable-file policy:** future updates should overwrite this canonical root file. Do not add another version-numbered bootstrap to the repository root; archive snapshots under `docs/history/` instead.
+### For a friend or other human who wants to understand the project
 
-Versioned bootstrap snapshots are preserved under `docs/history/`; detailed Warlock creator research is under `docs/research/`.
+Open:
 
-## v2.5.1 maintenance update
+`Brents-Destiny-2-Human-Bootstrap.md`
 
-- Replaced the versioned root bootstrap filename with the stable canonical name `Brents-Destiny-2-AI-Bootstrap.md`.
-- Preserved the exact v2.5 bootstrap under `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.md`.
-- Updated all active references so future releases overwrite one root bootstrap instead of adding another versioned copy.
+This tells the story of the project in a readable form: why the vault is difficult to clean, what makes Destiny weapon comparisons complicated, what Brent has learned, how the safeguards work, and where the project currently stands.
 
-## v2.5 highlights
+The human file explains the system; it does not replace the AI file for deletion analysis.
 
-- Reduced the active bootstrap by more than half without deleting historical evidence.
-- Added portable versus class/build-adjusted weapon valuation.
-- Added Hunter Marksman's Dodge reload logic and a reload/sustain taxonomy.
-- Corrected Bad Juju from presumptive Super-generation benchmark to one optional unique tool.
-- Consolidated repeated evidence rubrics, build priorities, retention matrices, prompts, and workflows.
-- Corrected stale active/archive DIM-import references.
+## Stable-file policy
+
+Future releases should overwrite both canonical root files:
+
+- `Brents-Destiny-2-AI-Bootstrap.md`
+- `Brents-Destiny-2-Human-Bootstrap.md`
+
+Do not add version-numbered bootstrap files to the repository root. Preserve snapshots under `docs/history/`.
+
+## v2.7 highlights
+
+- Restored the richer v2.5.1 AI-bootstrap structure after rejecting the over-compressed v2.6 experiment.
+- Added the separate human-facing bootstrap instead of forcing one document to serve both AI and human audiences.
+- Made Brent's explicit statements, corrections, preferences, examples, and protected items first-class project data that must not be optimized away.
+- Preserved separate retention hierarchy, deletion categories, coverage rules, Tier logic, workflow, verification checklist, onboarding questions, and personal examples.
+- Added a two-bootstrap architecture reference and archived the exact v2.5.1 AI bootstrap.
+- No vault exports, DIM imports, spreadsheets, candidate audits, or weapon-policy reference documents changed.
 
 ## Important safety rules
 
 - Never dismantle directly from an AI ranking.
 - Back up DIM metadata before imports.
-- Preserve user-created tags, notes, locks, favorites, keeps, and loadouts.
+- Preserve user-created tags, notes, locks, favorites, keeps, loadouts, and meaningful personal signals.
 - Compare exact weapon versions, intrinsic frames, firing behavior, elements, origin traits, legal Tier configurations, and full configured stat packages.
 - Treat class/build reload tools as contextual; do not erase portable value or passive rotation reload.
 - Treat costly dungeon, raid, Trials, Adept, crafted, retired, and limited-source gear with a higher deletion threshold.
@@ -56,13 +67,13 @@ Older eight-item and 38-item files are archived and are not current recommendati
 
 ## Key references
 
+- `docs/Bootstrap-Architecture-v2.7.md`
 - `docs/Class-Adjusted-Reload-and-Sustain.md`
 - `docs/Super-Economy-and-Bad-Juju.md`
 - `docs/Recoil-Direction-Mechanics.md`
 - `docs/Frame-Intrinsic-and-Origin-Trait-Coverage.md`
 - `docs/Dungeon-and-Source-Protection.md`
 - `docs/God-Roll-Perk-Synergy-and-Metadata-Policy.md`
-- `docs/Bootstrap-Optimization-Report-v2.5.md`
 - `docs/research/Warlock-Creator-Build-Research-v2.4.md`
-- `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.md`
+- `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.1.md`
 - `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.4.1-Legacy.md`

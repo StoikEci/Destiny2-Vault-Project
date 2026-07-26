@@ -1,8 +1,16 @@
 # Player Profile Template
 
-## Identity and class
+## Identity and continuity
 
 - Player name:
+- Preferred assistant name, if any:
+- Time available for vault maintenance:
+- Self-described inventory habits (collector, minimalist, pack rat, uncertain, other):
+- Explicit goals for the project:
+- Statements or preferences that must be preserved verbatim or nearly verbatim:
+
+## Class and input
+
 - Currently active class:
 - Other classes actually played:
 - Preferred subclasses:
@@ -63,3 +71,14 @@ Rank these:
 - Protect all raid/dungeon items?
 - Protect high kill-count items?
 - Sentimental items or custom DIM tags:
+
+## Personal evidence ledger
+
+For each meaningful statement or correction, record:
+
+- Date or approximate session:
+- What the player explicitly said:
+- Weapon, build, class, or activity context:
+- Durable preference or temporary build state:
+- Analytical consequence:
+- Superseded by a later statement?

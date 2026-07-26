@@ -1,35 +1,20 @@
-# Brent's Destiny 2 AI Bootstrap
+# Brent's Destiny 2 AI Bootstrap v2.5
 
-**Repository version:** 2.7  
+**Version:** 2.5  
 **Updated:** July 25, 2026  
-**Canonical filename:** `Brents-Destiny-2-AI-Bootstrap.md`  
-**Filename policy:** Keep this root filename stable; preserve versioned snapshots only under `docs/history/`.  
-**Companion human overview:** `Brents-Destiny-2-Human-Bootstrap.md`  
-**Active scope:** Full-fidelity continuity, vault intelligence, Tier 5 comparison, build-adjusted weapon valuation, best-in-role coverage, creator-evidence weighting, source protection, and DIM-safe cleanup.  
-**Prior active snapshot:** `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.1.md`  
-**Full legacy detail:** `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.4.1-Legacy.md`  
+**Active scope:** Vault intelligence, Tier 5 comparison, build-adjusted weapon valuation, best-in-role coverage, creator-evidence weighting, source protection, and DIM-safe cleanup.  
+**Historical detail:** `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.4.1-Legacy.md`  
 **Detailed Warlock creator research:** `docs/research/Warlock-Creator-Build-Research-v2.4.md`
 
 ## 0. Start here
 
 ### 0.1 Purpose
 
-This is the authoritative continuity and operating file for Brent's Destiny 2 vault project. It is designed for an AI that may need to resume the project without access to the original conversation. It therefore favors completeness, explicit guardrails, personal context, and auditable reasoning over extreme brevity.
+This is the active continuity and operating file for Brent's Destiny 2 vault project. It is deliberately shorter than the legacy bootstrap. The earlier file had become an append-only research journal: valuable, but repetitive and slow for a future AI to ingest. The v2.5 file keeps the rules, current state, reasoning standards, and durable conclusions in one place while moving historical page-by-page research into reference documents.
 
-The full v2.4-era file had become an append-only research journal: valuable, but repetitive and slow to ingest. v2.5.1 established a good middle ground. This version restores that richer structure after a rejected over-compression experiment and adds a separate human-facing companion rather than forcing one document to serve both audiences.
+A future AI should read this file first, then open a referenced document only when the task needs that detail.
 
-A future AI should read this file first, then the newest DIM export, then only the reference documents needed for the current task.
-
-### 0.2 Two-bootstrap architecture
-
-This repository intentionally has two stable root bootstraps:
-
-- **`Brents-Destiny-2-AI-Bootstrap.md` — authoritative AI operating file.** Preserve detailed mechanics, safeguards, Brent-specific preferences, explicit statements, project state, workflow, and lessons. It may be long when the detail prevents a bad recommendation or preserves continuity.
-- **`Brents-Destiny-2-Human-Bootstrap.md` — readable project story and overview.** Explain what Brent is doing, why Destiny vault cleanup is difficult, how the system works, and what has been learned without requiring a friend to read a technical operating manual.
-
-The human file is explanatory, not a substitute for the AI file during a deletion analysis. When the two differ in level of detail, the AI bootstrap and referenced policy documents govern the analysis. Keep both filenames stable; versioned snapshots belong only under `docs/history/`.
-
-### 0.3 Current situation
+### 0.2 Current situation
 
 - **User:** Brent
 - **Preferred assistant name:** Charlie
@@ -39,12 +24,8 @@ The human file is explanatory, not a substitute for the AI file during a deletio
 - **Class status:** Warlock has historically been Brent's most-developed class, but Brent has resumed playing Hunter. Do **not** assume a Warlock-only valuation model. Ask which class, subclass, Exotic armor, and activity are relevant to the current decision.
 - **Activities that matter most:** Difficult PvE, Grandmasters/Conquests, raids, dungeons, solo survival, strong general-purpose builds, and practical ease of use.
 - **Input method:** Verify before recoil-sensitive or PvP-sensitive recommendations.
-- **Time constraint:** Brent does not want to spend hours manually comparing every duplicate and selectable perk combination. The analysis should do the heavy work and produce an efficient, reviewable result.
-- **Inventory tendency:** Brent describes himself as a pack rat. Do not treat that as a flaw or use pressure tactics; reduce uncertainty by proving replacement coverage and identifying which differences are genuinely meaningful.
-- **Research preference:** Brent wants current opinions from strong Destiny creators, but creator popularity is not enough. Date recommendations, identify the exact role/activity, and reconcile them with official mechanics and Brent's actual inventory.
-- **Continuity preference:** Things Brent explicitly says about his weapons, builds, feel, priorities, or risk tolerance are project data. Preserve them in this file or a clearly linked permanent reference rather than optimizing them away.
 
-### 0.4 The five-layer decision model
+### 0.3 The five-layer decision model
 
 Every recommendation must combine:
 
@@ -56,7 +37,7 @@ Every recommendation must combine:
 
 Skipping any layer can turn a plausible recommendation into a bad deletion.
 
-### 0.5 Default Brent preferences
+### 0.4 Default Brent preferences
 
 Unless Brent says otherwise, prefer:
 
@@ -69,8 +50,6 @@ Unless Brent says otherwise, prefer:
 - Explainable decisions over opaque scores.
 
 Positive metadata protects or breaks ties. Missing metadata, zero kills, an unlocked state, or no loadout history is **neutral**, not evidence that a roll is bad.
-
-**Personal-information preservation rule:** Direct statements from Brent are stronger evidence than inferred metadata. A current explicit statement may supersede an older preference, but do not silently erase the older context; update the active conclusion and preserve the prior decision in history when it explains an earlier analysis. Distinguish a durable preference (for example, reliable activation) from a temporary build state (for example, currently playing Hunter).
 
 ---
 
@@ -88,8 +67,6 @@ Positive metadata protects or breaks ties. Missing metadata, zero kills, an unlo
 10. Never erase the last meaningful example of a movement, utility, Champion, element, frame, or build role merely to reduce duplicate counts.
 11. Never delete every functional Eager Edge sword.
 12. When uncertainty is meaningful, downgrade the recommendation to Manual Review instead of manufacturing confidence.
-13. Never optimize away a Brent-specific preference, explicit statement, protected item, or personal lesson solely to shorten this bootstrap.
-14. When a recommendation depends on current creator consensus, patch behavior, loot availability, or an activity modifier, record the date and source context before allowing it to influence an irreversible decision.
 
 ---
 
@@ -143,7 +120,7 @@ A roll should not be deleted merely because one active build makes one perk redu
 6. Niche or speculative roll with a credible use case.
 7. Redundant, incoherent, or strictly dominated copy.
 
-Do not reduce this hierarchy to one score unless every component remains visible in the audit. The hierarchy decides which copies deserve priority; the deletion categories below decide what action, if any, is justified.
+Do not reduce this hierarchy to one score unless every component remains visible in the audit.
 
 ---
 
@@ -252,7 +229,7 @@ A Tier 5 weapon can replace several conventional copies when it provides, for ex
 - A range/consistency PvP configuration.
 - A subclass-verb or ability-economy configuration.
 
-Tier alone is not immunity. A Tier 5 with weak or incoherent options can still be worse than a lower-tier god roll. Conversely, a Tier 5 copy may become more valuable after a class change—such as returning to Hunter—because selectable utility and damage combinations can replace a reload-focused configuration without requiring another physical copy.
+Tier alone is not immunity. A Tier 5 with weak or incoherent options can still be worse than a lower-tier god roll.
 
 ### 5.1 Tier dominance test
 
@@ -458,10 +435,7 @@ Also grade:
 - **Independence:** several unrelated creators versus several cards from one video.
 - **Currentness:** post-update demonstrated clear versus preview or old sandbox.
 - **Applicability:** general, activity-specific, encounter-specific, boss-phase, farm, PvP, or experimental.
-- **Specificity:** exact weapon, frame, roll, class/build, and activity versus a broad statement such as “best auto rifle.”
 - **Player fit:** execution burden, survivability, range, ownership, armor requirements, and Brent's preferences.
-
-For a creator-backed BIS benchmark, record the publication date, sandbox/season, creator, exact role, recommended roll or required function, demonstrated activity, and whether independent sources agree. A stale recommendation can remain historically interesting without remaining a current deletion benchmark.
 
 ### 9.2 Creator-source handling
 
@@ -580,7 +554,6 @@ For each candidate include:
 - Lost tradeoff, if any.
 - Source, obtainability, and reacquisition cost.
 - Positive metadata/personal signals.
-- Relevant explicit statements from Brent and whether they are durable preferences or build-specific context.
 - Confidence and review instruction.
 
 Never produce only a naked list of item IDs.
@@ -697,13 +670,9 @@ For every saved build, record:
 
 This prevents one creator's example weapon from being misread as a mandatory vault keeper.
 
-Maintain a small **personal evidence ledger** in this bootstrap or a linked reference whenever Brent gives a meaningful preference or corrects an assumption. Record what he said, the weapon/build/activity context, the date if known, and the analytical consequence. Do not convert a single situational comment into a universal preference without evidence.
-
 ---
 
 ## 16. New-player or friend onboarding
-
-A friend who wants to understand Brent's project should begin with `Brents-Destiny-2-Human-Bootstrap.md`. An AI analyzing that friend's own vault should use this AI bootstrap plus `templates/Player-Profile-Template.md` and must not inherit Brent's personal preferences.
 
 Before applying these rules to another player, ask:
 
@@ -745,7 +714,7 @@ Mechanics around or after the repository's July 2026 source window require fresh
 
 ## 18. Recommended resume prompt
 
-> Continue Brent's Destiny 2 vault cleanup using `Brents-Destiny-2-AI-Bootstrap.md` and the newest DIM export. Preserve Brent's explicit statements, personal examples, protected items, user metadata, and positive personal signals; treat zero kills and missing tags as neutral. Enumerate Tier 5 legal configurations, compare exact versions/frames/elements/origin traits and full configured stat packages, and evaluate portable, class/build-adjusted, and rotation value—especially Hunter reload interactions. Verify current official mechanics and dated creator/community evidence, protect source/reacquisition cost and meaningful coverage, and produce only an auditable conservative DIM proposal with retained replacements and explicit tradeoffs.
+> Continue Brent's Destiny 2 vault cleanup using the active v2.5 bootstrap and newest DIM export. Preserve user metadata and positive personal signals; treat zero kills and missing tags as neutral. Enumerate Tier 5 legal configurations, compare exact versions/frames/elements/origin traits and full configured stat packages, and evaluate portable plus class/build-adjusted value—especially Hunter reload interactions. Use current community evidence and official mechanics, protect source/reacquisition cost and meaningful coverage, and produce only an auditable conservative DIM proposal with retained replacements and explicit tradeoffs.
 
 ---
 
@@ -773,7 +742,4 @@ That is the standard for all future vault cleanup.
 - God-roll/synergy/metadata policy: `docs/God-Roll-Perk-Synergy-and-Metadata-Policy.md`
 - Detailed v2.4 creator research: `docs/research/Warlock-Creator-Build-Research-v2.4.md`
 - Full legacy bootstrap: `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.4.1-Legacy.md`
-- Human-facing project overview: `Brents-Destiny-2-Human-Bootstrap.md`
-- Two-bootstrap architecture: `docs/Bootstrap-Architecture-v2.7.md`
-- Prior active AI bootstrap: `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.1.md`
-- v2.5 optimization report: `docs/Bootstrap-Optimization-Report-v2.5.md`
+- Optimization report: `docs/Bootstrap-Optimization-Report-v2.5.md`

@@ -1,7 +1,7 @@
 # Bootstrap Optimization Report — v2.5
 
 **Source analyzed:** `Brents-Destiny-2-AI-Bootstrap-v2.4.1.md` (the v2.4 content plus the v2.4.1 recoil patch)  
-**Optimized file:** `Brents-Destiny-2-AI-Bootstrap-v2.5.md`
+**Optimized file:** `Brents-Destiny-2-AI-Bootstrap.md` (originally published as `Brents-Destiny-2-AI-Bootstrap-v2.5.md`; renamed canonically in v2.5.1)
 
 ## Measured change
 
@@ -47,7 +47,7 @@ Nothing needed for historical audit was deleted:
 
 A future AI should normally read:
 
-1. `Brents-Destiny-2-AI-Bootstrap-v2.5.md`
+1. `Brents-Destiny-2-AI-Bootstrap.md`
 2. The newest DIM export and current analysis files
 3. Only the specific reference document needed for the task
 
