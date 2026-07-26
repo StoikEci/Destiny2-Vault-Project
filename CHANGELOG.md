@@ -1,5 +1,13 @@
 # Change Log
 
+## v2.5.1 — July 25, 2026
+
+- Renamed the active root bootstrap to the stable canonical filename `Brents-Destiny-2-AI-Bootstrap.md`.
+- Established the rule that future releases overwrite the canonical root bootstrap instead of creating another version-numbered root file.
+- Preserved the exact v2.5 bootstrap as `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.md`.
+- Updated README, manifest, friend onboarding, optimization-report, research, and continuity-prompt references to the canonical filename.
+- No vault exports, DIM imports, analysis workbooks, candidate audits, or weapon-policy content changed in this maintenance release.
+
 ## v2.5 — July 25, 2026
 
 - Rebuilt the primary bootstrap as a concise active operating file instead of an append-only research journal.

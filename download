@@ -1,0 +1,19 @@
+# Personal/current vault data
+Vault-Exports/latest/*
+!Vault-Exports/latest/.gitkeep
+
+# Proposed or generated DIM imports
+DIM-Imports/proposed/*
+!DIM-Imports/proposed/.gitkeep
+
+# Backups may contain personal metadata
+DIM-Imports/metadata-backups/*
+!DIM-Imports/metadata-backups/.gitkeep
+
+# Large evidence files
+Evidence/BuildersGG/*.pdf
+Evidence/BuildersGG/*.png
+
+# Permanent baseline is intentionally versioned
+!Vault-Exports/baseline/*.csv
+!Vault-Exports/baseline/SHA256SUMS.txt

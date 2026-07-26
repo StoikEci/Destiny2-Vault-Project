@@ -1,4 +1,4 @@
-# Brent's Destiny 2 AI Repository v2.5
+# Brent's Destiny 2 AI Repository v2.5.1
 
 This repository packages Brent's active Destiny 2 vault-intelligence framework, current vault snapshots and analyses, reusable prompts, and preserved research history.
 
@@ -6,11 +6,19 @@ This repository packages Brent's active Destiny 2 vault-intelligence framework, 
 
 Open:
 
-`Brents-Destiny-2-AI-Bootstrap-v2.5.md`
+`Brents-Destiny-2-AI-Bootstrap.md`
 
 The active bootstrap is optimized for fast continuity. It contains the operating model, current project state, Tier and coverage rules, class/build-adjusted weapon valuation, Hunter reload implications, recoil mechanics, creator-evidence rubric, source protection, and DIM-safe workflow.
 
-The complete v2.4.1 bootstrap is preserved under `docs/history/`; detailed Warlock creator research is under `docs/research/`.
+**Stable-file policy:** future updates should overwrite this canonical root file. Do not add another version-numbered bootstrap to the repository root; archive snapshots under `docs/history/` instead.
+
+Versioned bootstrap snapshots are preserved under `docs/history/`; detailed Warlock creator research is under `docs/research/`.
+
+## v2.5.1 maintenance update
+
+- Replaced the versioned root bootstrap filename with the stable canonical name `Brents-Destiny-2-AI-Bootstrap.md`.
+- Preserved the exact v2.5 bootstrap under `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.md`.
+- Updated all active references so future releases overwrite one root bootstrap instead of adding another versioned copy.
 
 ## v2.5 highlights
 
@@ -56,4 +64,5 @@ Older eight-item and 38-item files are archived and are not current recommendati
 - `docs/God-Roll-Perk-Synergy-and-Metadata-Policy.md`
 - `docs/Bootstrap-Optimization-Report-v2.5.md`
 - `docs/research/Warlock-Creator-Build-Research-v2.4.md`
+- `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.5.md`
 - `docs/history/Brents-Destiny-2-AI-Bootstrap-v2.4.1-Legacy.md`
